@@ -1,0 +1,12 @@
+Package: twipc
+Type: Package
+Title: Intuitive Simulation-Based Two-Way Interaction Power Calculation
+Version: 0.1.0
+Author: Mark H. White II
+Maintainer: Mark H. White II <markhwhiteii@gmail.com>
+Description: This package contains functions to conduct power analyses for two-way
+    interactions in the linear model. It is intuitive by inputting expected mean
+    or slope patterns and simulating power from these patterns.
+License: MIT License
+Encoding: UTF-8
+LazyData: true
