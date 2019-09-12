@@ -10,3 +10,4 @@ Description: This package contains functions to conduct power analyses for two-w
 License: MIT License
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
