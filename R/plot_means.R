@@ -1,6 +1,8 @@
 #' Plot the Two-Way Interaction Mean Patterns to be Simulated
 #' 
-#' @description
+#' @description Plot to see what pattern of means look like before one puts them
+#'   into the simulation. This allows a user to make sure what they input to
+#'   the simulation function matches the pattern of results they expect to see.
 #' 
 #' @param a1b1 Mean in cell A1, B1
 #' @param a1b2 Mean in cell A1, B2
@@ -17,6 +19,8 @@
 #' @return A ggplot2 object depicting the mean patterns
 #' 
 #' @examples
+#' # imagine d = .5 in condition A and d = .0 in condition B
+#' plot_means(0, .5, 0, 0)
 #' 
 #' @import ggplot2
 plot_means <- function(a1b1, a1b2, a2b1, a2b2, a = NULL, a1 = NULL, a2 = NULL, 
