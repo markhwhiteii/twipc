@@ -23,6 +23,7 @@
 #' plot_means(0, .5, 0, 0)
 #' 
 #' @import ggplot2
+#' @export
 plot_means <- function(a1b1, a1b2, a2b1, a2b2, a = NULL, a1 = NULL, a2 = NULL, 
                        b = NULL, b1 = NULL, b2 = NULL) {
   dat <- data.frame(
